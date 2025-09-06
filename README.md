@@ -1,12 +1,16 @@
-# React + Vite
+# 3D Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built with React and Vite, providing a fast development environment with Hot Module Replacement (HMR) and ESLint integration.
 
-Currently, two official plugins are available:
+Compared to the default Vite React template, this portfolio showcases interactive 3D elements and custom UI components tailored for personal branding.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key features and differences:
 
-## Expanding the ESLint configuration
+- Utilizes [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) for efficient development and Fast Refresh.
+- Integrates advanced 3D rendering libraries (such as Three.js) to display portfolio items in an immersive way.
+- Customizes ESLint rules to enforce code quality and consistency specific to this project's needs.
+- Designed for scalability and easy integration of new portfolio sections.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Recommendations
+
+For production use, consider adopting TypeScript and enabling type-aware linting. Refer to the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for guidance on integrating TypeScript and [`typescript-eslint`](https://typescript-eslint.io) into your workflow.
