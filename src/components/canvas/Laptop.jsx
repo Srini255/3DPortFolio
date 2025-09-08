@@ -9,8 +9,8 @@ import {
 
 import CanvasLoader from "../Loader";
 
-const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+const Laptop = ({ isMobile }) => {
+  const computer = useGLTF("./desktop_pc/Laptop/scene.gltf");
   const { animations } = computer;
   const { actions, mixer } = useAnimations(animations, computer.scene);
 
@@ -48,7 +48,7 @@ const Computers = ({ isMobile }) => {
   );
 };
 
-const ComputersCanvas = () => {
+const LaptopCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   //Add a listener for changes to the screen size
@@ -93,4 +93,4 @@ const ComputersCanvas = () => {
   );
 };
 
-export default ComputersCanvas;
+export default LaptopCanvas;
