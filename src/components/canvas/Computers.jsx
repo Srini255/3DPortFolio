@@ -10,7 +10,7 @@ import {
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./desktop_pc/Computer/scene.gltf");
   const { animations } = computer;
   const { actions, mixer } = useAnimations(animations, computer.scene);
 
